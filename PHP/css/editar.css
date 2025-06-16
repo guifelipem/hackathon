@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#corpo {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #e0eafc);
+    color: #333;
+}
+
+#header-editar {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+}
+
+#menu-editar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-editar li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#menu-editar li a:hover {
+    background-color: #3498db;
+}
+
+#form-card {
+    max-width: 500px;
+    background-color: #fff;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+#form-card h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+#editar-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+#editar-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#editar-form button:hover {
+    background-color: #6dacf0;
+}
+
+.message {
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+#header-navegacao {
+    background-color: #007BFF;
+    padding: 1rem 0;
+}
+
+#menu-navegacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-navegacao li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+#menu-navegacao li a:hover {
+    background-color: #3498db;
+}

@@ -1,0 +1,122 @@
+#corpo {
+    margin: 0;
+    padding: 0 0px 20px 0px;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #e0eafc);
+    color: #333;
+}
+
+#titulo-eventos {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #2c3e50;
+}
+
+#mensagem-erro {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mensagem-vazia {
+    text-align: center;
+    color: #888;
+}
+
+/* Mantém a tabela compacta e com borda sutil */
+#tabela-eventos {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Arredondar apenas as laterais */
+#tabela-eventos thead tr th:first-child {
+    border-top-left-radius: 12px;
+}
+#tabela-eventos thead tr th:last-child {
+    border-top-right-radius: 12px;
+}
+#tabela-eventos tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+#tabela-eventos tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+
+#tabela-eventos th,
+#tabela-eventos td {
+    padding: 15px;
+    text-align: left;
+}
+
+#tabela-eventos th {
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+#tabela-eventos tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#tabela-eventos td form {
+    margin: 0;
+}
+
+#tabela-eventos button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#tabela-eventos tbody tr {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#tabela-eventos tbody tr:hover {
+    background-color: #e6f2ff; /* cor de destaque ao passar o mouse */
+    transform: scale(1.02); /* aumenta levemente a linha */
+    cursor: pointer;
+}
+
+
+#tabela-eventos button:hover {
+    background-color: #218838;
+}
+#header-navegacao {
+    background-color: #007BFF;
+    padding: 1rem 0;
+}
+
+#menu-navegacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-navegacao li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+#menu-navegacao li a:hover {
+    background-color: #3498db;
+}
