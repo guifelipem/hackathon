@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#corpo {
+font-family: "Segoe UI", sans-serif;
+background: linear-gradient(to right, #f0f2f5, #e0eafc);
+color: #333;
+}
+
+main#main-inscricoes {
+max-width: 900px;
+margin: 2rem auto;
+padding: 20px;
+}
+
+h1#titulo-inscricoes {
+text-align: center;
+margin-bottom: 2rem;
+color: #2c3e50;
+}
+
+.card-inscricao {
+background-color: #ffffff;
+border-left: 5px solid #3498db;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+padding: 1.2rem 1.5rem;
+margin-bottom: 1.2rem;
+transition: transform 0.2s ease;
+}
+
+.card-inscricao:hover {
+transform: translateY(-3px);
+}
+
+.evento-nome {
+font-size: 1.2rem;
+font-weight: bold;
+color: #34495e;
+margin-bottom: 0.4rem;
+}
+
+.evento-data {
+font-size: 0.95rem;
+color: #555;
+}
+
+.mensagem {
+text-align: center;
+font-size: 1rem;
+color: #999;
+margin-top: 2rem;
+}
+#header-navegacao {
+    background-color: #007BFF;
+    padding: 1rem 0;
+}
+
+#menu-navegacao {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-navegacao li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+#menu-navegacao li a:hover {
+    background-color: #3498db;
+}
+
+.botoes-inscricao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.btn-certificado, .btn-remover {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+/* Botão Gerar Certificado */
+.btn-certificado {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-certificado:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Botão Remover */
+.btn-remover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-remover:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+/* MODAL - sem JS */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-overlay:target {
+    display: flex;
+}
+
+.modal-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-box h2 {
+    color: #28a745;
+    margin-bottom: 1rem;
+}
+
+.btn-modal, .btn-fechar {
+    display: inline-block;
+    margin: 0.5rem 0.25rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-modal {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-modal:hover {
+    background-color: #0056b3;
+}
+
+.btn-fechar {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-fechar:hover {
+    background-color: #c82333;
+}
+

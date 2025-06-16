@@ -1,0 +1,101 @@
+#login-body { 
+    background: linear-gradient(to right, #f0f2f5, #e0eafc);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card-login {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    width: 380px;
+    text-align: center;
+    gap: 1.2rem;
+    margin-bottom: 1.5rem; 
+}
+
+#form-login input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#botao-entrar {
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.7rem;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#botao-entrar:hover {
+    background-color: #4338ca;
+}
+
+#erro-login {
+    color: red;
+    margin-top: 10px;
+}
+
+#topo-login {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: linear-gradient(to right, #f0f2f5, #e0eafc);
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    z-index: 1;
+}
+
+#login-titulo {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #4f46e5;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+#nav-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#menu-login {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-login li {
+    display: inline;
+}
+
+#link-registrar {
+    text-decoration: none;
+    color: #4f46e5;
+    font-weight: bold;
+    background-color: #e0e7ff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#link-registrar:hover {
+    background-color: #c7d2fe;
+    color: #1e1b4b;
+}
